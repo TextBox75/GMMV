@@ -2,12 +2,12 @@
 A compact, simplified version of Source's model viewer that can be easily accessed in-game.
 
 Supports:
-Animation Playback and Playback Rate modification.
-Skins.
-Rendering of bones and attachments.
-Wireframe rendering.
-Hitboxes and Bounding Box rendering.
-Bodygroups and Flexbones.
+Animation Playback and Playback Rate modification,
+Skins,
+Rendering of bones and attachments,
+Wireframe rendering,
+Hitboxes and Bounding Box rendering,
+Bodygroups and Flexbones,
 and more.
 
 How to open the model viewer:
