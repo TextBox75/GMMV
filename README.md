@@ -7,7 +7,7 @@ Skins,
 Rendering of bones and attachments,
 Wireframe rendering,
 Hitboxes and Bounding Box rendering,
-Bodygroups and Flexbones,
+Bodygroups and Flexbones
 and more.
 
 How to open the model viewer:
