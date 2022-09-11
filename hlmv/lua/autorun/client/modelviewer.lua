@@ -39,10 +39,8 @@ if CLIENT then
     -- //////////////////////////////////////// MAIN ////////////////////////////////////////
 
     function CreateWindow(ent)
+        surface.SetFont("DermaDefault")
         if ent:IsValid() then
-
-            -- TODO: Center the 2 windows 
-
             Window = vgui.Create( "DFrame" )
             Window:SetPos( MVInfo.X, MVInfo.Y) 
             Window:SetSize( MVInfo.SizeX, MVInfo.SizeY) 
