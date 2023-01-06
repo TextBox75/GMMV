@@ -56,7 +56,11 @@ if CLIENT then
             Viewport:SetX(Window:GetWide() / 2 + 5)
     
             ModelPanel = vgui.Create("DModelPanel", Viewport)
-            ModelPanel:SetModel(ent:GetModel())
+            if ( ent:GetClass() == "prop_effect" ) then
+                ModelPanel:SetModel(ent.AttachedEntity:GetModel())
+            else
+                ModelPanel:SetModel(ent:GetModel())
+            end
             ModelPanel:GetEntity():SetAngles(MVInfo.ModelAngle)
             ModelPanel:SetPos(0, 0)
             ModelPanel:SetSize(Viewport:GetWide(), Viewport:GetTall())
